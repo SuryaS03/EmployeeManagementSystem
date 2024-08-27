@@ -1,0 +1,64 @@
+/* Dashboard.css */
+
+/* General container styling */
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Sidebar styling */
+  .sidebar {
+    background-color: #f8f9fa; /* Light background color */
+    min-height: 100vh;
+    border-right: 1px solid #dee2e6; /* Optional border for separation */
+  }
+  
+  /* Sidebar brand styling */
+  .brand {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #212529; /* Dark text for better contrast */
+  }
+  
+  /* Sidebar navigation styling */
+  .nav-pills .nav-link {
+    color: #495057;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+  .nav-pills .nav-link:hover {
+    color: #212529;
+    background-color: #e9ecef;
+  }
+  
+  /* Sidebar active link styling */
+  .nav-pills .nav-link.active {
+    background-color: #e9ecef;
+  }
+  
+  /* Header styling */
+  .header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  /* Content body styling */
+  .content-body {
+    overflow-y: auto;
+    background-color: #f1f3f5;
+    min-height: calc(100vh - 4rem);
+    padding: 2rem;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .brand {
+      font-size: 1rem;
+    }
+  
+    .nav-pills .nav-link span {
+      display: none;
+    }
+  }
+  

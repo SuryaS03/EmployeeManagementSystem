@@ -1,0 +1,63 @@
+.home-container {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background color for the entire container */
+}
+
+.stats-cards {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem; /* Space below the stats cards */
+}
+
+.card {
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border: 1px solid #dee2e6; /* Light border for definition */
+}
+
+.card-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #212529; /* Darker text for better contrast */
+  margin-bottom: 1rem; /* Space below the title */
+}
+
+.table {
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #fff; /* White background for the table */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2; /* Slightly lighter background for odd rows */
+}
+
+.table th,
+.table td {
+  text-align: center;
+  padding: 1rem; /* Increased padding for better readability */
+  border-bottom: 1px solid #dee2e6; /* Light border between rows */
+}
+
+.table th {
+  background-color: #343a40; /* Dark color for the header */
+  color: #fff;
+  font-weight: 700;
+}
+
+.table td {
+  color: #495057;
+}
+
+.table thead th {
+  border-bottom: 2px solid #343a40; /* Bold border under the header with dark color */
+}
